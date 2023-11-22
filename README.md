@@ -1,0 +1,2 @@
+# cloudsite
+microsoft azure project
