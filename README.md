@@ -1,19 +1,19 @@
 # cloudsite
 microsoft azure project
 
-Project Title:
+# Project Title:
 
 Dockerization and Deployment of a Static Website on Azure Container Instances
 
 
-Problem Statement/Opportunity:
+# Problem Statement/Opportunity:
 [Identify the specific problem or opportunity that this project aims to address. This could include issues related to scalability, portability, or efficiency in deploying and managing a static website.]
 
-Project Description:
-Objective:
+# Project Description:
+# Objective:
 The primary objective of this project is to demonstrate the process of creating a Docker image from an Azure Virtual Machine (VM) containing a static website, pushing the Docker image to Azure Container Registry (ACR), and deploying a container instance using the image stored in ACR.
 
-Prerequisites:
+# Prerequisites:
 1. Azure subscription with access to Azure Portal.
 2. Azure Virtual Machine with a static website deployed.
 3. Docker installed on the Azure Virtual Machine.
@@ -23,16 +23,16 @@ Create a Dockerfile in the root directory of your static website on the Azure Vi
 
 Example Dockerfile:
 
-# Use an official Nginx image as the base image
+Use an official Nginx image as the base image
 FROM nginx:latest
 
-# Copy the static website files to the Nginx default directory
+Copy the static website files to the Nginx default directory
 COPY /path/to/your/static/website /usr/share/nginx/html
 
-# Expose port 80 for web traffic
+Expose port 80 for web traffic
 EXPOSE 80
 
-# Command to run when the container starts
+Command to run when the container starts
 CMD ["nginx", "-g", "daemon off;"]
 
 
@@ -67,5 +67,5 @@ Configure the necessary settings (e.g., resource group, networking, etc.).
 Deploy the container instance.
 
 
-Conclusion:
+# Conclusion:
 This documentation provides a detailed guide on Dockerizing a static website on an Azure Virtual Machine, pushing the image to Azure Container Registry, and deploying a container instance. Following these steps ensures a streamlined process for containerization and deployment on the Azure platform.
