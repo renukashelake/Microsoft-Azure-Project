@@ -6,6 +6,7 @@ microsoft azure project
 
 Dockerization and Deployment of a Static Website on Azure Container Instances
 
+![Screenshot 2023-11-22 174534](https://github.com/renukashelake/skills-introduction-to-github/assets/124230859/9e583b02-dcfa-4408-9470-057aa64952cc)
 
 # Problem Statement/Opportunity:
 [Identify the specific problem or opportunity that this project aims to address. This could include issues related to scalability, portability, or efficiency in deploying and managing a static website.]
