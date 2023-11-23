@@ -1,6 +1,5 @@
 # cloudsite
 microsoft azure project
-![Screenshot 2023-11-22 174534](https://github.com/renukashelake/skills-introduction-to-github/assets/124230859/9e583b02-dcfa-4408-9470-057aa64952cc)
 
 # Project Title:
 
