@@ -2,6 +2,7 @@
 microsoft azure project
 ![Screenshot 2023-11-22 174534](https://github.com/renukashelake/skills-introduction-to-github/assets/124230859/d852be76-8acb-4aa7-b8a4-e79033330b89)
 
+
 # Project Title:
 
 Dockerization and Deployment of a Static Website on Azure Container Instances
