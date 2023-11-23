@@ -1,6 +1,6 @@
 # cloudsite
 microsoft azure project
-
+<img src="C:\Users\Dell\OneDrive\Pictures\Screenshots\Screenshot 2023-11-22 174534.png">
 # Project Title:
 
 Dockerization and Deployment of a Static Website on Azure Container Instances
