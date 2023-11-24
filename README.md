@@ -23,6 +23,9 @@ The primary objective of this project is to demonstrate the process of creating 
 
 A container registry is a centralized storage system that allows you to upload, download, and manage container images. These images are typically used with container orchestration platforms like Kubernetes or container runtime environments like Docker. The registry serves as a hub for sharing and distributing container images among developers, teams, and systems.
 
+![Screenshot 2023-11-22 174534](https://github.com/renukashelake/cloudsite/assets/124230859/b5ee0ab2-652d-4372-97ee-2d06a245f90d)
+
+
 <h5>Key features of container registries include:</h5>
 
 <h5>Image Storage:</h5> 
