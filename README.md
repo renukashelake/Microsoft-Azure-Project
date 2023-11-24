@@ -51,6 +51,62 @@ A private container registry service provided by Amazon Web Services.
 A private container registry service provided by Microsoft Azure.
 
 <h4>2. Azure Virtual Machine with a static website deployed.</h4>
+<h5>1. Create an Azure Virtual Machine:</h5>
+<h6>Sign in to the Azure Portal:</h6>
+
+Go to Azure Portal.
+Sign in with your Azure account.
+Create a Virtual Machine:
+
+Click on "Create a resource" in the left sidebar.
+Search for "Windows Server" or "Linux" depending on your preference and select the appropriate image.
+Fill out the required information, such as resource group, VM name, region, etc.
+Choose a size for your VM based on your needs.
+Configure the networking settings, such as virtual network and subnet.
+Configure Ports:
+
+In the Networking section, make sure to open port 80 (HTTP) or port 443 (HTTPS) depending on your website's requirements.
+Authentication:
+
+Set up authentication. For Linux, you might use SSH keys, and for Windows, you'll set up a username and password.
+Review and Create:
+
+Review your settings and click "Create" to deploy the VM.
+<h5>2. Connect to the Virtual Machine:</h5>
+<h6>SSH (Linux VM) or RDP (Windows VM):</h6>
+Once the VM is deployed, connect to it using SSH or RDP.
+For SSH, you can use a command like ssh username@public_ip (replace username with your username and public_ip with your VM's public IP address).
+For RDP, use the public IP address and the username/password you specified during VM creation.
+<h5>3. Deploy the Static Website:</h5>
+<h6>Install a Web Server:</h6>
+
+For Linux, you might use Apache or Nginx.
+For Windows, IIS (Internet Information Services) is a common choice.
+<h6>Upload Your Website:</h6>
+
+Transfer your static website files to the VM. You can use SCP, SFTP, or any other method depending on your VM's OS.
+<h6>Configure the Web Server:</h6>
+
+Set up the web server to serve your static content. For example, in Apache, you might place your files in the /var/www/html directory.
+<h6>Test Your Website:</h6>
+
+Open a web browser and navigate to your VM's public IP address. You should see your static website.
+<h5>4. Optional Steps:</h5>
+<h6>Domain Name:</h6>
+
+If you have a domain name, you can configure it to point to your VM's IP address.
+<h6>SSL Certificate:</h6>
+
+If you want to use HTTPS, obtain an SSL certificate and configure your web server to use it.
+Remember to manage security effectively, such as updating your VM's operating system, configuring firewalls, and implementing other security best practices.
+
+Keep in mind that hosting a static website on a Virtual Machine might be overkill for small projects, and Azure also offers other services like Azure Storage Static Website or Azure App Service that are more suitable for hosting static content with lower maintenance overhead.
+
+
+
+
+
+
 <h4>3. Docker installed on the Azure Virtual Machine.</h4>
 
 <h4>Step 1: Create a Dockerfile</h4>
