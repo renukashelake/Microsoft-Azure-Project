@@ -60,6 +60,9 @@ A private container registry service provided by Amazon Web Services.
 A private container registry service provided by Microsoft Azure.
 
 <h4>2. Azure Virtual Machine with a static website deployed.</h4>
+
+![Screenshot 2023-11-22 174549](https://github.com/renukashelake/cloudsite/assets/124230859/a972d19e-5580-4b6d-962c-760d338252c5)
+
 <h5>1. Create an Azure Virtual Machine:</h5>
 <h6>Sign in to the Azure Portal:</h6>
 
