@@ -9,9 +9,9 @@ Education, Politics, Industry, social work)
 <h2>Problem Statement/Opportunity:</h2>
 Identify the specific problem or opportunity that this project aims to address. This could include issues related to scalability, portability, or efficiency in deploying and managing a static website.]
 <h2>Azure Services</h2>
-<h3>Virtual Machine</h3>
-<h3>Container Registries</h3>
-<h3>Container Instances</h3>
+<h4>1.Virtual Machine</h4>
+<h4>2.Container Registries</h4>
+<h4>3.Container Instances</h4>
 
 <h2>Project Description:</h2>
 <h3>Objective:</h3>
