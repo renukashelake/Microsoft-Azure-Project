@@ -2,8 +2,6 @@
 microsoft azure project
 
 
-dfghj
-
 # Project Title:
 
 Dockerization and Deployment of a Static Website on Azure Container Instances
