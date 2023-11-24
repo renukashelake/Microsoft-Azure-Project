@@ -251,10 +251,16 @@ Deploy the container instance.
 
 ![Screenshot 2023-11-24 235351](https://github.com/renukashelake/cloudsite/assets/124230859/7061963e-6f06-49fc-bffb-87c07039af3f)
 
+
 <h5>About Us</h5>
+
+![Screenshot 2023-11-24 235411](https://github.com/renukashelake/cloudsite/assets/124230859/9ef7061c-0d4d-4b4b-9e3d-66a4103381d3)
 
 
 <h5>Contact Page</h5>
+
+![Screenshot 2023-11-24 235423](https://github.com/renukashelake/cloudsite/assets/124230859/77d0b4e2-5025-41f6-a9a8-f02b413f2175)
+
 
 <h2>Conclusion:</h2>
 This documentation provides a detailed guide on Dockerizing a static website on an Azure Virtual Machine, pushing the image to Azure Container Registry, and deploying a container instance. Following these steps ensures a streamlined process for containerization and deployment on the Azure platform.
