@@ -249,5 +249,7 @@ Specify the ACR image URL (e.g., <acr-login-server>/your-image-name:tag).
 Configure the necessary settings (e.g., resource group, networking, etc.).
 Deploy the container instance.
 
+<h3>Project Deployment</h3>
+
 <h2>Conclusion:</h2>
 This documentation provides a detailed guide on Dockerizing a static website on an Azure Virtual Machine, pushing the image to Azure Container Registry, and deploying a container instance. Following these steps ensures a streamlined process for containerization and deployment on the Azure platform.
