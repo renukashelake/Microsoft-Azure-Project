@@ -43,6 +43,9 @@ Registries often have access control mechanisms to restrict who can push or pull
 <h5>Integration with Orchestration Platforms:<h5> 
 Container registries are often integrated with container orchestration platforms like Kubernetes, making it easy to deploy and manage containerized applications at scale.
 
+
+![Screenshot 2023-11-22 174608](https://github.com/renukashelake/cloudsite/assets/124230859/dfc58526-8745-4b18-b223-001df0bd6239)
+
 <h5>Popular container registries include:</h5>
 
 <h5>Docker Hub:</h5> 
@@ -79,8 +82,6 @@ Set up authentication. For Linux, you might use SSH keys, and for Windows, you'l
 Review and Create:
 
 Review your settings and click "Create" to deploy the VM.
-
-![Screenshot 2023-11-22 174549](https://github.com/renukashelake/cloudsite/assets/124230859/43b12c35-0ede-42ca-964f-f8648d1432b8)
 
 
 <h5>2. Connect to the Virtual Machine:</h5>
