@@ -245,19 +245,19 @@ Specify the ACR image URL (e.g., <acr-login-server>/your-image-name:tag).
 Configure the necessary settings (e.g., resource group, networking, etc.).
 Deploy the container instance.
 
-<h3>Project Deployment</h3>
+<h2>Project Deployment</h2>
 
-<h5>Home Page</h5>
+<h3>Home Page</h3>
 
 ![Screenshot 2023-11-24 235351](https://github.com/renukashelake/cloudsite/assets/124230859/7061963e-6f06-49fc-bffb-87c07039af3f)
 
 
-<h5>About Us</h5>
+<h3>About Us</h3>
 
 ![Screenshot 2023-11-24 235411](https://github.com/renukashelake/cloudsite/assets/124230859/9ef7061c-0d4d-4b4b-9e3d-66a4103381d3)
 
 
-<h5>Contact Page</h5>
+<h3>Contact Page</h3>
 
 ![Screenshot 2023-11-24 235423](https://github.com/renukashelake/cloudsite/assets/124230859/77d0b4e2-5025-41f6-a9a8-f02b413f2175)
 
