@@ -194,6 +194,10 @@ If you want to use HTTPS, consider obtaining an SSL certificate and configuring 
 
 For production scenarios, you might want to consider using Azure Container Registry to store and manage your Docker images.
 
+
+![Screenshot 2023-11-22 174608](https://github.com/renukashelake/cloudsite/assets/124230859/dfc58526-8745-4b18-b223-001df0bd6239)
+
+
 <h4>Step 1: Create a Dockerfile</h4>
 Create a Dockerfile in the root directory of your static website on the Azure Virtual Machine. The Dockerfile specifies the steps to build the Docker image.
 
