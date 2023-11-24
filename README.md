@@ -43,8 +43,7 @@ Registries often have access control mechanisms to restrict who can push or pull
 <h5>Integration with Orchestration Platforms:<h5> 
 Container registries are often integrated with container orchestration platforms like Kubernetes, making it easy to deploy and manage containerized applications at scale.
 
-
-![Screenshot 2023-11-22 174608](https://github.com/renukashelake/cloudsite/assets/124230859/dfc58526-8745-4b18-b223-001df0bd6239)
+![Screenshot 2023-11-22 174608](https://github.com/renukashelake/cloudsite/assets/124230859/dfc58526-8745-4b18-b223-001df0bd6239)  
 
 <h5>Popular container registries include:</h5>
 
@@ -195,8 +194,6 @@ If you want to use HTTPS, consider obtaining an SSL certificate and configuring 
 
 For production scenarios, you might want to consider using Azure Container Registry to store and manage your Docker images.
 
-
-![Screenshot 2023-11-22 174608](https://github.com/renukashelake/cloudsite/assets/124230859/dfc58526-8745-4b18-b223-001df0bd6239)
 
 
 <h4>Step 1: Create a Dockerfile</h4>
