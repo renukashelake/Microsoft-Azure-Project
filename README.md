@@ -1,10 +1,10 @@
-<h1>Cloudsite</h1>
-microsoft azure project
-
-
 <h2>Project Title:</h2>
+<h3>WEBSITE RELATED SHIVAJIRAO NAGAWADE</h3>
+-Created And Managed website related shivajirao nagawade(His work in various fields like 
+Education, Politics, Industry, social work)
+<h5>Technologies used:</h5> HTML | CSS | php | javascript
 
-<h3>Dockerization and Deployment of a Static Website on Azure Container Instances</h3>
+<h6>Dockerization and Deployment of a Static Website on Azure Container Instances</h6>
 
 <h2>Problem Statement/Opportunity:</h2>
 Identify the specific problem or opportunity that this project aims to address. This could include issues related to scalability, portability, or efficiency in deploying and managing a static website.]
