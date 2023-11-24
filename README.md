@@ -182,6 +182,8 @@ Adjust the above Dockerfile based on your specific requirements and the technolo
 <h5>4. Access Your Website:</h5>
 Visit http://your-vm-ip in your web browser, replacing your-vm-ip with the public IP address or DNS name of your Azure VM. You should see your static website served by the Docker container.
 
+![Screenshot 2023-11-22 174626](https://github.com/renukashelake/cloudsite/assets/124230859/c91fde95-837a-4d69-abab-f65a7f455896)
+
 <h5>Additional Steps (Optional):</h5>
 <h6>Publish Ports:</h6>
 
