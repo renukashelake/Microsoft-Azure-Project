@@ -116,6 +116,7 @@ Keep in mind that hosting a static website on a Virtual Machine might be overkil
 Connect to your Azure VM using SSH (for Linux VM) or RDP (for Windows VM) and follow the instructions below based on your VM's operating system.
 
 <h6>For Linux VM (Ubuntu example):</h6>
+
     # Update the package index
     sudo apt-get update
 
