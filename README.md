@@ -14,9 +14,44 @@ Dockerization and Deployment of a Static Website on Azure Container Instances
 The primary objective of this project is to demonstrate the process of creating a Docker image from an Azure Virtual Machine (VM) containing a static website, pushing the Docker image to Azure Container Registry (ACR), and deploying a container instance using the image stored in ACR.
 
 # Prerequisites:
-1. Azure subscription with access to Azure Portal.
-2. Azure Virtual Machine with a static website deployed.
-3. Docker installed on the Azure Virtual Machine.
+ # 1. Azure subscription with access to Azure Portal.
+ Container registries are repositories for storing and distributing container images. In the context of software development and deployment, a container is a lightweight, standalone, and executable software package that includes everything needed to run a piece of software, including the code, runtime, libraries, and system tools. Containers are often used for packaging and deploying applications in a consistent and reproducible way across different environments.
+
+A container registry is a centralized storage system that allows you to upload, download, and manage container images. These images are typically used with container orchestration platforms like Kubernetes or container runtime environments like Docker. The registry serves as a hub for sharing and distributing container images among developers, teams, and systems.
+
+# Key features of container registries include:
+
+# *Image Storage: 
+Container registries store container images, which are essentially snapshots of a file system with metadata describing the image and its dependencies.
+
+# *Distribution: 
+Container registries provide a way to distribute container images to different environments or systems. This is crucial in a distributed and scalable architecture.
+
+# *Versioning: 
+Container registries support versioning of images, allowing developers to use specific versions of an application or service.
+
+# *Access Control: 
+Registries often have access control mechanisms to restrict who can push or pull images. This helps in managing permissions and securing the distribution process.
+
+# *Integration with Orchestration Platforms: 
+Container registries are often integrated with container orchestration platforms like Kubernetes, making it easy to deploy and manage containerized applications at scale.
+
+# Popular container registries include:
+
+# *Docker Hub: 
+A public registry hosted by Docker that allows users to share and access container images.
+
+# *Google Container Registry (GCR): 
+A private container registry service provided by Google Cloud Platform.
+
+# *Amazon Elastic Container Registry (ECR): 
+A private container registry service provided by Amazon Web Services.
+
+# *Azure Container Registry (ACR):
+A private container registry service provided by Microsoft Azure.
+
+# 2. Azure Virtual Machine with a static website deployed.
+# 3. Docker installed on the Azure Virtual Machine.
 
 Step 1: Create a Dockerfile
 Create a Dockerfile in the root directory of your static website on the Azure Virtual Machine. The Dockerfile specifies the steps to build the Docker image.
