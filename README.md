@@ -108,6 +108,79 @@ Keep in mind that hosting a static website on a Virtual Machine might be overkil
 
 
 <h4>3. Docker installed on the Azure Virtual Machine.</h4>
+<h5>1. Install Docker on Azure VM:</h5>
+Connect to your Azure VM using SSH (for Linux VM) or RDP (for Windows VM) and follow the instructions below based on your VM's operating system.
+
+<h6>For Linux VM (Ubuntu example):</h6>
+    # Update the package index
+    sudo apt-get update
+
+    # Install Docker dependencies
+    sudo apt-get install -y apt-transport-https ca-certificates curl software-properties-common
+
+    # Add Docker's official GPG key
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+
+    # Add Docker repository
+    echo "deb [signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+    # Install Docker
+    sudo apt-get update
+    sudo apt-get install -y docker-ce docker-ce-cli containerd.io
+
+    # Add your user to the docker group to run Docker commands without sudo
+    sudo usermod -aG docker $USER
+
+    # Log out and log back in or restart your VM
+<h6>For Windows VM:</h6>
+Install Docker Desktop on Windows
+<h5>2. Create a Dockerfile:</h5>
+Create a file named Dockerfile in the root of your static website project. This file contains instructions for building a Docker image for your application.
+
+    # Use an official lightweight Node.js image
+    FROM node:alpine
+
+    # Set the working directory inside the container
+    WORKDIR /usr/src/app
+
+    # Copy package.json and package-lock.json to the working directory
+    COPY package*.json ./
+
+    # Install app dependencies
+    RUN npm install
+
+    # Copy the rest of the application code to the working directory
+    COPY . .
+
+    # Expose the port the app runs on
+    EXPOSE 80
+
+    # Define the command to run your application
+    CMD ["npm", "start"]
+Adjust the above Dockerfile based on your specific requirements and the technologies you are using.
+
+<h5>3. Build and Run the Docker Container:</h5>
+<h6>1.Build the Docker image from the directory containing your Dockerfile:</h6>
+
+
+    docker build -t your-image-name .
+ <h6>2.Run the Docker container:</h6>
+
+    docker run -p 80:80 -d your-image-name
+<h5>4. Access Your Website:</h5>
+Visit http://your-vm-ip in your web browser, replacing your-vm-ip with the public IP address or DNS name of your Azure VM. You should see your static website served by the Docker container.
+
+<h5>Additional Steps (Optional):</h5>
+<h6>Publish Ports:</h6>
+
+Make sure to publish the necessary ports when running your Docker container. In the example above, port 80 is published using the -p 80:80 option.
+<h6>Custom Domain and SSL:</h6>
+
+If you have a custom domain, you can configure it to point to your Azure VM's IP address.
+If you want to use HTTPS, consider obtaining an SSL certificate and configuring your web server or using tools like Let's Encrypt.
+<h6>Azure Container Registry (ACR):</h6>
+
+For production scenarios, you might want to consider using Azure Container Registry to store and manage your Docker images.
 
 <h4>Step 1: Create a Dockerfile</h4>
 Create a Dockerfile in the root directory of your static website on the Azure Virtual Machine. The Dockerfile specifies the steps to build the Docker image.
