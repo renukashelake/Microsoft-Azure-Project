@@ -117,10 +117,6 @@ Remember to manage security effectively, such as updating your VM's operating sy
 Keep in mind that hosting a static website on a Virtual Machine might be overkill for small projects, and Azure also offers other services like Azure Storage Static Website or Azure App Service that are more suitable for hosting static content with lower maintenance overhead.
 
 
-
-
-
-
 <h4>3. Docker installed on the Azure Virtual Machine.</h4>
 <h5>1. Install Docker on Azure VM:</h5>
 Connect to your Azure VM using SSH (for Linux VM) or RDP (for Windows VM) and follow the instructions below based on your VM's operating system.
@@ -250,6 +246,15 @@ Configure the necessary settings (e.g., resource group, networking, etc.).
 Deploy the container instance.
 
 <h3>Project Deployment</h3>
+
+<h5>Home Page</h5>
+
+![Screenshot 2023-11-24 235351](https://github.com/renukashelake/cloudsite/assets/124230859/7061963e-6f06-49fc-bffb-87c07039af3f)
+
+<h5>About Us</h5>
+
+
+<h5>Contact Page</h5>
 
 <h2>Conclusion:</h2>
 This documentation provides a detailed guide on Dockerizing a static website on an Azure Virtual Machine, pushing the image to Azure Container Registry, and deploying a container instance. Following these steps ensures a streamlined process for containerization and deployment on the Azure platform.
