@@ -260,7 +260,8 @@ Deploy the container instance.
 
 <h3>About Us</h3>
 
-![Screenshot 2023-11-24 235411](https://github.com/renukashelake/cloudsite/assets/124230859/9ef7061c-0d4d-4b4b-9e3d-66a4103381d3)
+![Screenshot 2023-11-25 100400](https://github.com/renukashelake/cloudsite/assets/124230859/d1d42786-1004-4a20-9c05-e3a75a56c592)
+
 
 
 <h3>Contact Page</h3>
