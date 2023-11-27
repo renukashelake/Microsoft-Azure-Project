@@ -18,7 +18,7 @@ Identify the specific problem or opportunity that this project aims to address. 
 <h4>1.Virtual Machine</h4>
 <h4>2.Container Registries</h4>
 <h4>3.Container Instances</h4>
-<h4>4.Azure AI Studio</h4>
+<h4>4.Azure AI Services</h4>
 
 <h2>Project Description:</h2>
 <h3>Objective:</h3>
@@ -202,8 +202,8 @@ If you want to use HTTPS, consider obtaining an SSL certificate and configuring 
 
 For production scenarios, you might want to consider using Azure Container Registry to store and manage your Docker images.
 
-<h4>4.Azure AI Studio:</h4>
-Microsoft Azure offers a variety of AI-related services, but there isn't a specific service called "Azure AI Studio." However, Microsoft Azure provides a range of tools and services for building, deploying, and managing AI solutions. It's possible that there have been updates or new releases since then.
+<h4>4.Azure AI Services:</h4>
+Microsoft Azure offers a variety of AI-related services, but there isn't a specific service called "Azure AI Services." However, Microsoft Azure provides a range of tools and services for building, deploying, and managing AI solutions. It's possible that there have been updates or new releases since then.
 
 
 ![Screenshot 2023-11-27 202922](https://github.com/renukashelake/cloudsite/assets/124230859/bcc3380e-09f6-48d4-865e-7af9413ee8cc)
