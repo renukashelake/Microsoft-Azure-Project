@@ -206,7 +206,8 @@ For production scenarios, you might want to consider using Azure Container Regis
 Microsoft Azure offers a variety of AI-related services, but there isn't a specific service called "Azure AI Services." However, Microsoft Azure provides a range of tools and services for building, deploying, and managing AI solutions. It's possible that there have been updates or new releases since then.
 
 
-![Screenshot 2023-11-27 202922](https://github.com/renukashelake/cloudsite/assets/124230859/bcc3380e-09f6-48d4-865e-7af9413ee8cc)
+![Screenshot 2023-11-27 203527](https://github.com/renukashelake/cloudsite/assets/124230859/2e58f395-bfee-4e31-9dc2-a8002c259a0f)
+
 
 
 <h5>Here are some key Azure AI services and tools that were available as of my last update:</h5>
