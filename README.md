@@ -18,6 +18,7 @@ Identify the specific problem or opportunity that this project aims to address. 
 <h4>1.Virtual Machine</h4>
 <h4>2.Container Registries</h4>
 <h4>3.Container Instances</h4>
+<h4>4.Azure AI Studio</h4>
 
 <h2>Project Description:</h2>
 <h3>Objective:</h3>
@@ -201,7 +202,33 @@ If you want to use HTTPS, consider obtaining an SSL certificate and configuring 
 
 For production scenarios, you might want to consider using Azure Container Registry to store and manage your Docker images.
 
+<h4>4.Azure AI Studio:</h4>
+Microsoft Azure offers a variety of AI-related services, but there isn't a specific service called "Azure AI Studio." However, Microsoft Azure provides a range of tools and services for building, deploying, and managing AI solutions. It's possible that there have been updates or new releases since then.
 
+<h5>Here are some key Azure AI services and tools that were available as of my last update:</h5>
+
+<h6>1.Azure Machine Learning Service:</h6>
+
+Azure Machine Learning service allows you to build, train, and deploy machine learning models at scale. It supports a variety of machine learning frameworks and languages.
+
+<h6>2.Azure Cognitive Services:</h6>
+
+Azure Cognitive Services provide pre-built AI capabilities that can be easily integrated into applications. These services include vision, speech, language, knowledge, and search capabilities.
+
+<h6>3.Azure Databricks:</h6>
+
+Azure Databricks is an Apache Spark-based analytics platform that provides a collaborative environment for big data and machine learning. It integrates with Azure Machine Learning for scalable model training.
+
+<h6>4.Azure Bot Services:</h6>
+
+Azure Bot Services enable the development of intelligent bots that can interact with users across multiple channels, such as web, mobile, and messaging platforms.
+
+<h6>5.Azure Custom Vision:</h6>
+
+Azure Custom Vision allows you to build custom image classification models using your own labeled images. This service is part of Azure Cognitive Services.
+<h6>6.Azure Notebooks:</h6>
+
+Azure Notebooks provide a cloud-based Jupyter Notebooks service that can be used for data exploration, analysis, and visualization. It supports various programming languages.
 
 <h4>Step 1: Create a Dockerfile</h4>
 Create a Dockerfile in the root directory of your static website on the Azure Virtual Machine. The Dockerfile specifies the steps to build the Docker image.
