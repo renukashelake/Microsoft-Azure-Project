@@ -1,6 +1,6 @@
 
 <h2>Project Demo URL:</h2>
-<a>mywebapp01.aqbybcfxbefrbvck.eastus.azurecontainer.io</a>
+<a href="mywebapp01.aqbybcfxbefrbvck.eastus.azurecontainer.io">mywebapp01.aqbybcfxbefrbvck.eastus.azurecontainer.io</a>
 
 <h2>Project Video URL:</h2>
 
