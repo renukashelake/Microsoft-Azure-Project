@@ -13,7 +13,7 @@ Education, Politics, Industry, social work)
 <h6>Dockerization and Deployment of a Static Website on Azure Container Instances</h6>
 
 <h2>Problem Statement/Opportunity:</h2>
-Identify the specific problem or opportunity that this project aims to address. This could include issues related to scalability, portability, or efficiency in deploying and managing a static website.]
+Identify the specific problem or opportunity that this project aims to address. This could include issues related to scalability, portability, or efficiency in deploying and managing a static website.
 <h2>Azure Services</h2>
 <h4>1.Virtual Machine</h4>
 <h4>2.Container Registries</h4>
@@ -75,21 +75,21 @@ A private container registry service provided by Microsoft Azure.
 
 Go to Azure Portal.
 Sign in with your Azure account.
-Create a Virtual Machine:
 
+Create a Virtual Machine:
 Click on "Create a resource" in the left sidebar.
 Search for "Windows Server" or "Linux" depending on your preference and select the appropriate image.
 Fill out the required information, such as resource group, VM name, region, etc.
 Choose a size for your VM based on your needs.
 Configure the networking settings, such as virtual network and subnet.
+
 Configure Ports:
-
 In the Networking section, make sure to open port 80 (HTTP) or port 443 (HTTPS) depending on your website's requirements.
+
 Authentication:
-
 Set up authentication. For Linux, you might use SSH keys, and for Windows, you'll set up a username and password.
-Review and Create:
 
+Review and Create:
 Review your settings and click "Create" to deploy the VM.
 
 
